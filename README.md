@@ -22,7 +22,11 @@ This repository contains the `dartTools` R package (which includes the Shiny app
 
 ## Dockerized version of the app
 
-You can use the Dockerfile in the root of the repository
+You can use the Dockerfile in the root of the repository. Before you build this app from Dockerfile, you should have those files/data_dump/packages in the same directory of `Dockerfile.txt` (Watch out the append `.txt`). Usually, you would like to download the `Dockerfile.txt` in your root directory.
+
+1. `dartTools`: you can download from this repository and move it to the root directory.
+2. `ETL/data_app/smilesCache.txt`: please contact [us](https://www.vivaltes.com/#contact) to have demo file.
+3. `ETL/data_app/txt_database_dump`: please contact [us](https://www.vivaltes.com/#contact) to have demo database_dump.
 
 ```{bash}
 # (re)build the image
